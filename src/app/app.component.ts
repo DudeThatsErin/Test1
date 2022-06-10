@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import Swiper, { Autoplay } from 'swiper';
+import { Swiper, Autoplay } from 'swiper';
 
 Swiper.use([Autoplay]);
 @Component({
