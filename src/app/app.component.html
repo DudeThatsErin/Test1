@@ -1,0 +1,11 @@
+<!--<app-left-sidebar></app-left-sidebar>
+<div class="content">
+  <app-homepage-portfolio></app-homepage-portfolio> -->
+
+  <swiper [autoplay]="{
+    delay: 2500,
+    disableOnInteraction: false
+}" [speed]="2000" [loop]="true">
+    <ng-template swiperSlide><img src="../assets/color_scheme.png" alt="test"></ng-template>
+    <ng-template swiperSlide><img src="../assets/random-image-display-using-javascript-2.png" alt="test"></ng-template>
+</swiper>
